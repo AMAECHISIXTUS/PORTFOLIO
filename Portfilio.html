@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <title>
+            DevSixtus Portfolio Website
+        </title>
+            <link rel="stylesheet"
+             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+             integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+             integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+            <link rel="stylesheet" href="portfolio.css">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" 
+            crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+3:wght@600&family=Source+Sans+Pro:wght@600&family=Source+Serif+Pro:wght@600&display=swap" 
+             rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.jpg.jpg" alt="">
+            </div>
+            <button class="nav-toogle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro"> 
+                Hi, I am <strong>AMAECHI SIXTUS</strong>                
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/devsix02.JPG" alt="a picture of sixtus smiling" class="intro__img">
+        </section>
+
+
+        <!-- my services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>            
+            <div class="services">
+                <div class="service">
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>
+                        i am an expertise in web development.
+                        my professionalism in this feild has gotten me to work with top organizations like
+                     </p>
+                </div>  <!--/ service-->
+
+
+                <div class="service">
+                    <h3>GRAPHICS DESIGN</h3>
+                    <p>
+                        I am a certified professionl in graphics design with over 10 years experince .
+                     </p>
+                </div>  <!--/ service-->
+                
+h                <div class="service">
+                    <h3>CUSTOMER CARE EXPERT</h3>
+                    <p>
+                        I am a trained and certified CUSTOMER service personnel with over 10 years experince.
+                    </p>
+                </div>  <!--/ service-->
+            </div>  <!--/ services-->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+         <!--About me-->
+         <section class="about-me" id="about">
+             <h2 class="section__title section__title--about">Who I am</h2>
+             <p class="section__subtitle section__subtitle--about">Developer & UI/UX Designer based in Africa</p>
+
+             <div class="about-me__body">
+                 <p>I am a certified computer scientist with a B.Tech degree in computer science from the prestigious
+                     federal university of technology Owerri. 
+                 </p>
+                 <p>My experince in the Infromation technology (I.T) world is vast due to my work experiences with I.T firms around the Globe
+                     both private and federal sectors.
+                 </p>
+             </div>
+
+             <img src="img/ink.jpg" alt="six on point" class="about-me__img">
+         </section>
+
+         <!--My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section __subtitle section__subtitle--work" >A Selection of my range of work</p>
+            <div class="portfolio">
+                <!--portfolio item 01-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/work1.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!--portfolio item 01-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/work 2.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--portfolio item 01-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/work 3.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--portfolio item 01-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/work.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!--portfolio item 01-->
+                <a href="#" class="portfolio__item">
+                    <img src="portfolio01.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:sixtus.chimex@gmail.com" class="footer__link">
+                sixtus.chimex@gmail.com
+            </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://facebook.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://twitter.com">
+                        <i class="fa-brands fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://instagram.com">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://linkedin.com">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+  
+
+        </footer>
+
+        <script src="portfolio.js"></script>
+
+
+    </body>
+</html>
