@@ -18,7 +18,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #3CA3DB;
+    --clr-accent: #101994;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -70,7 +70,7 @@ strong {
     display: inline-block;
     padding: .5em 1.5em;
     background: var(--clr-accent);
-    color: var(--clr-dark);
+    color: var(--clr-light);
     text-decoration: none;
     cursor: pointer;
     font-size: .8rem;
@@ -123,10 +123,11 @@ h3 { font-size: var(--fs-h3);}
     padding: .25em;
     font-family: var(--ff--secondary);
     margin-bottom: 1em;
+    color: var(--clr-light);
 }
 
 .section__subtitle--work {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     font-weight: var(--fw-bold);
     margin-bottom: 1em;
 }
@@ -146,7 +147,7 @@ header {
 }
 
 .logo {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .nav {
@@ -198,10 +199,11 @@ header {
     z-index: 1000;
 }
 
-.nav-open .nav {
-    transform: translateX(0);
+.nav-open {
+    /*transform: translateX(0);*/
+    background:rgb(233, 4, 4);
 }
-
+/*
 .nav-open .nav-toggle{
     position: fixed;
 }
@@ -217,6 +219,7 @@ header {
     opacity: 0;
 
 }
+*/
 
 
 .hamburger {
@@ -303,7 +306,7 @@ header {
 
 
 .section__title--services {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     position: relative;
 }
 
