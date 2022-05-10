@@ -147,7 +147,7 @@ header {
 }
 
 .logo {
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .nav {
@@ -201,8 +201,9 @@ header {
 
 .nav-open {
     /*transform: translateX(0);*/
-    background:rgb(233, 4, 4);
+    background:red;
 }
+
 /*
 .nav-open .nav-toggle{
     position: fixed;
