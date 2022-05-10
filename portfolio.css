@@ -200,11 +200,10 @@ header {
 }
 
 .nav-open {
-    /*transform: translateX(0);*/
-    background:red;
+    transform: translateX(0);
 }
 
-/*
+
 .nav-open .nav-toggle{
     position: fixed;
 }
@@ -220,7 +219,6 @@ header {
     opacity: 0;
 
 }
-*/
 
 
 .hamburger {
