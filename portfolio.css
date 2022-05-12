@@ -37,6 +37,11 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* general styles */
 
 body {
